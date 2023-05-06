@@ -34,15 +34,9 @@ public class preparedStatement {
 			System.out.println(rollno+"  "+sname+"  "+city+"  "+deptno);
 		}
 		
-		
-		//This is Brainstroming session
-		//on may 18th
-		//Ahmed Faisal
-		
 		con.close();
+		ps.close();
 		sc.close();
-		rs.close();
-		
 		
 		
 	}
