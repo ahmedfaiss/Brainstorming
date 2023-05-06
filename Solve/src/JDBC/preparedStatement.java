@@ -38,6 +38,9 @@ public class preparedStatement {
 		ps.close();
 		sc.close();
 		
+		//This is Brainstroming session
+		//on may 18th
+		
 		
 	}
 
