@@ -1,0 +1,31 @@
+* To Compile and execute we require JDK, which has JRE and JVM
+* JDK has compiler and run time environment
+* once you write the program you have to compile it and which is present inside JDK, and once compiling, you have to execute it
+* So JRe is present inside the JDK and inside JRE we have class libraries and JVM
+* To execute we need JVM
+* "Javac" is used to compile the Java program by using the development kit present inside JDK and and to run that we have to use keyword
+  "java" and name of the program excluding .class extension, which uses the JVM present inside the JRE(i,e JVM) and also if needed used 
+  class libraries present inside JRE
+* JVM is an Interpreter
+* The main method is a static because without creating the object jvm directly calls main method, it calls as first.main(), here first is a 
+  program name so it can be different
+  
+* java.lang is automatically imported if we don't import also, So it contains classes like System etc
+
+* you can have class name and file name different only if you don't write as public, So if you don't write public then you can compile the program using
+  file name and run using class name there is no issues there
+  
+* If you give class name as public then both class and file name should be same or else it will give an error, (usually in CMD) but if you are using
+  compiler then it will throw an error if you don't write public
+  
+* The java should have main method in -> public static void main(String[] args) only -> if you remove the parameters then it will throw an error while
+  running, but you can compile the program without writing  the parameter(String [] args), but you can't run
+  
+* here args[] takes the command line arguments if you define the inside the program
+
+* you can use _ in the long or double or float value, only in between but not at the end
+
+* Unicoded are present in unicode.org website
+
+* Merging means doing an OR operation to check some conditions like how much bits are set to 1
+* Masking means doing and Operation to check whether the any one number is set to 1 or not

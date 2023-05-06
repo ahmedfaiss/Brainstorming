@@ -1,0 +1,32 @@
+* we can talk to data base by writing statement in java, and to connect with data base we need 1. Drivers and also 2. Connection, Where driver 
+  helps in making connection.
+  
+* And Driver also helps in converting the Java data types to Database data types
+
+* for  connection we have in built classes JAVA.SQL, with the help of connection we can talk into database and will receive the result as RESULTSET
+
+* There are 4 types of Drivers available in JAVA
+  1. TYPE 1->JDBC-ODBC Bridge(Partial) -> Windows Provides a neutral Database called as ODBC which is present inside the system, Partial means->
+                                          The program that is written to connect ODBC from java program is java but from ODBC to database can be 
+                                          written in Java or can be in other languages we are not worried about that.
+                                          Connecting from Java program to ODBC is called as driver
+                                       
+  2. TYPE 2->Native-API(Partial)-> Initially oracle was written in C, So it had created an interface to connect to Oracle database called as
+                                   OCI(Oracle Calling Interface) which is written in C, So to connect from Java Program to OCI we use Driver
+                                   which is written in java (TYPE 2), So that we can modify in database, So this is partial java and partial native
+                                   So the driver we use to connect to OCI, is called as Native-API
+                                   
+  3. TYPE 3->Java-Net Protocol Driver(Pure)-> In this there is middle man(Server)  which talks to both Java Program and Database, So we use this
+                                              driver(which is pure java) to communicate with server, Driver is not worried about other side of the 
+                                              Server
+                                              
+  3. TYPE 4->Thin Driver(Pure)-> This is the driver which connect directly to the server without any middle man which is written in java
+  
+  
+                                                  
+                                                  Steps to write the JDBC program
+1. Use Driver
+2. Establish Connection
+3. Create Statement
+4. Execute Query
+5. Get ResultSet

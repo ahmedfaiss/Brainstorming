@@ -1,0 +1,79 @@
+//Collection is nothing but arranging the data in the data memory, that data will be used by java program
+//Java provides different type of collections that is suitable depending upon the requirements or depending upon the
+//operation that you are performing
+
+/*
+ * There are variable collection framework delivered by java that are :
+ * 1. Variable Size Collection -> a) arrayList b) linkedList -> which changes the size of the array by itself
+ * 2. Distinct Collection -> a) Set -> when you want to have unique type of elements and not duplicates then you can use
+ *    Set
+ * 3. Sorted Collection -> sortedSet -> when you want to have an unique and sorted set of elements then you can you 
+ *    sortedSet
+ * 4. Some of the operations we perform is -> a) insert(This inserts at whichever position you want)
+ *                                            b) delete(This deletes at whichever position you want and reduces the size too
+ *                                            c) search(This is the most frequently used operation)
+ *                                        
+ * 
+ */
+ 
+                                                    I-> interface, C->class
+                                                    
+I-Collection -> there are interfaces implementing this collection
+                a) List -> I
+                b) Set  -> I
+                c) Queue -> I
+                
+a) List -> It has index in it, and has classes implementing it that are
+
+                1) ArrayList -> C
+                2) LinkedList -> C
+                3) Vector -> C - > Legacy i,e it was created long back, or older version, it has one interface
+                   implementing it.
+                         3.1) Stack -> C
+                         
+ b) Set -> which is ordered and doesn't have duplicates and has Classes and interfaces implementing it :
+ 
+               1) HashSet -> C
+               2) LinkedHashSet -> C
+               3)SortedSet -> I -> it has one class implementing it :
+                         3.1) TreeSet -> C
+                         
+ C) Queue -> I -> it has FIFO methodology, and has classes and interfaces implementing it :
+               1) PriorityQueue -> C
+               2) Deque ->  I - >allows FIFO and LIFO, and has once class implementing it :
+                         2.1) ArrayDeque -> C
+                         
+
+There is once more hierarchy that is not implementing from Collection that is :
+
+     Map -> This is the implementation of hashing technique where it stores the value based on key and you can access
+            value based on key, and it has classes and interfaces implementing it that are :
+            a) HashMap -> C
+            b) LinkedHashMap -> C
+            c) HashTable -> C
+            d) SortedMap -> I, it has one class implementing it that is :
+               1) TreeMap -> C
+               
+The Collection framework classes and interfaces are available in java.util Package
+
+Collection interface methods -> add(E e) -> adds the the object 
+                                addAll(Collection<E> e) -> adds the collection, i,e multiple objects
+                                remove(E e) -> removes the object
+                                removeAll(collection<E> e) -> removes the collection
+                                retainAll(Collection<E> e) -> removes all the object except collection
+                                clear() -> removes everything
+                                isEmpty() -> returns true if empty
+                                contains(Object e) -> this is like a search and returns true
+                                cantainsAll(Collection<E> e) -> searches the collection and returns true
+                                equals(Object e) compares the object or collection
+                                size() -> gives number of objects present in the collection
+                                iterator() -> it is like a scanning into collection
+                                toArray() -> converts collection into array
+                                
+                                
+                
+                     
+                
+                 
+         
+     

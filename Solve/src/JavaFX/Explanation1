@@ -1,0 +1,20 @@
+* Frame work for developing of GUI Application
+* It is platform Independent
+
+Key Features
+
+* Java APpi
+* Support FXML Scene Builder
+* We can Embed web page inside the JavaFX and it can call the JavaScript inside webpage, javafx also has WebKit
+* Swing Interoperability ->that is we can use Swing in JavaFX
+* Built-in UI Controls as CSS -> If you want to make the buttons or frames little good looking then you can use css to do that
+* Support Canvas Api 
+* Supports multiTouch 
+* Hardware-Accelerated Graphics PipeLine -> Nowadays Graphics is supported by GPU(Graphical Processing Unit) which supports Open CL, So this 
+  means that JavaFx supports open Cl
+  
+* High-Performance Media Engine -> JavaFX supports Audio and Videos
+* Self-Contained Application Deployment Model -> it can be deployed with Java Run time Environment
+
+
+

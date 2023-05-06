@@ -1,0 +1,30 @@
+JavaDoc
+
+*we can  do a site where everything about something is written beautifully by HTML
+etc same way we can organize things neatly by documentation
+*So we no need to learn HTML or any other  thing instead java provides us a simple
+way to create a documentation by using tool called JavaDoc
+* where we have to provide some neatfull information and java created the document
+* so creating a documentation java provides set of tags which is given below
+
+	  class 						Methods							Others
+
+	 @author					    @param							@link
+	 
+	 @version                       @return						    @value
+	 
+	 @since                         @throws							@serial
+	 
+	 @see                          @exception
+	 
+	 							  @deprecated
+	 							  
+	 							     @code
+
+* for documentation you have to use /**, /* is for commenting and double * is for
+documenting
+
+
+* the Documentation files will be created inside javadoc folder , where HTML file
+and many other files will be created
+	 							     
