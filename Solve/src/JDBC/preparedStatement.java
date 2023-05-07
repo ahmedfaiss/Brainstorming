@@ -38,10 +38,6 @@ public class preparedStatement {
 				//on may 18th
 				//Ahmed Faisal
 		
-		con.close();
-		sc.close();
-		rs.close();
-		
 		
 	}
 
