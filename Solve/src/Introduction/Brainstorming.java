@@ -6,6 +6,7 @@ public class Brainstorming {
 	{
 		System.out.println();
 		System.out.println("HappyWeekend");
+		System.out.println("github");
 	}
 
 }

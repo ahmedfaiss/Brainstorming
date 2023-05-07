@@ -37,6 +37,11 @@ public class preparedStatement {
 		//This is Brainstroming session
 				//on may 18th
 				//Ahmed Faisal
+		//github
+		
+		con.close();
+		sc.close();
+		rs.close();
 		
 		
 	}
