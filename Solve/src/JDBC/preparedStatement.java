@@ -35,10 +35,6 @@ public class preparedStatement {
 		}
 		
 		
-		//This is Brainstroming session
-		//on may 18th
-		//Ahmed Faisal
-		
 		
 	}
 
